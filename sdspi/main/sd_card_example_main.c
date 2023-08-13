@@ -25,10 +25,17 @@ static const char *TAG = "example";
 #define PIN_NUM_CLK   CONFIG_EXAMPLE_PIN_CLK
 #define PIN_NUM_CS    CONFIG_EXAMPLE_PIN_CS*/
 
-#define PIN_NUM_MISO  19
+/*#define PIN_NUM_MISO  19
 #define PIN_NUM_MOSI  23
 #define PIN_NUM_CLK   18
-#define PIN_NUM_CS    5
+#define PIN_NUM_CS    5*/
+
+#define PIN_NUM_MISO    2 
+#define PIN_NUM_MOSI    15
+#define PIN_NUM_CLK     14
+#define PIN_NUM_CS      13
+
+
 
 
 void app_main(void)
